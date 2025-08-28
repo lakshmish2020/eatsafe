@@ -3,8 +3,8 @@ import os
 import re
 from typing import Dict, List, Any
 from openai import OpenAI
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 class IngredientAnalyzer:
     """Uses AI to analyze and summarize ingredients from OCR text"""
